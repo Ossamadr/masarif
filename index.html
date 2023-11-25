@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>money</title>
+</head>
+
+<body>
+    <div class="container" dir="rtl">
+        <h3>الدخل الشهري</h3>
+        <input onkeyup="create()" type="number" id="main">
+        <h3>مصاريف البيت</h3>
+        <input onkeyup="create()" type="number" name="" id="home">
+        <h3>الفواتير</h3>
+        <input onkeyup="create()" type="number" id="fac">
+        <h3>الادخار الاسبوعي</h3>
+        <input onkeyup="create()" type="number" id="sav">
+        <small id="s1"></small>
+        <small id="s2"></small>
+        <small id="s3"></small>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
